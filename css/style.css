@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0 auto ;
+    font-family: 'TT Hoves';
+    color: #222;
+}
+/*  html_css_js start */
+section{
+    padding: 0 calc(10.6vw + 16px);
+    margin-bottom: 160px;
+}
+
+.logo{
+    width: calc(8.8vw + 182px);
+    margin-top: 37px;
+    margin-bottom: 85px;
+}
+
+.course_info{
+    display: flex;
+    gap: 30px 161px;
+    margin-bottom: 76px;
+}
+
+.course_data{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-family: "TT Hoves";
+    /* font-size: 21px; */
+    font-size: calc(0.55vw + 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 29.4px */
+}
+
+.value{
+    font-family: "TT Hoves";
+    /* font-size: 21px; */
+    font-size: calc(0.55vw + 14px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 29.4px */
+}
+
+.html_css_js h1{
+    font-family: "Chava";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 88px */
+    margin-bottom: 40px;
+}
+
+
+.html_css_js p{
+    font-family: "TT Hoves";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 37.8px */
+    margin-bottom: 20px;
+}
+
+
+
+.btn_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px ;
+}
+
+
+.primary{
+    width: 328px;
+    border-radius: 12px;
+    background: #6E3ABA;
+    padding: 20px 0;
+    border: 2px solid #6E3ABA;
+    color:white;
+}
+
+.secondary{
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    background-color: white;
+    border: 2px solid #6E3ABA;
+    color: #6E3ABA;
+    cursor: pointer;
+}
+
+
+.html_css_js{
+    background-image: url(../img/html-css-js.svg);
+    background-repeat: no-repeat;
+    background-position: top 121px right 58px;
+    background-size: calc(23vw + 89px);
+    margin-bottom: 200px;
+    /* width: calc(23vw + 89px); */
+}
+
+.html_css_js h1{
+    /* width: calc(49vw + 147px); */
+    font-size: calc(4.2vw + 26px);
+}
+
+.html_css_js p{
+   font-size: calc(0.9vw + 14px);
+}
+/* html_css_js end  */
+
+
+/* section two start */
+.two{
+    display: flex;
+    flex-direction: column;
+}
+
+.two h2{
+    Width:769px;
+    Height:136px;
+    Left:120px;
+    font-size: 58px;
+}
+
+.face{
+    display: flex;
+    gap: 30px;
+}
+
+
+.memoji{
+    width: calc(13vw + 277px);
+    width: 460px;
+    height: 506px;
+}
+.memoji{
+    width: calc(14vw + 277px);
+    height: calc(14vw + 300px);
+}
+.two img{
+    width: 187px;
+    width: calc(6.2vw + 106px);
+    height: 187px;
+    height: calc(6.2vw + 106px) ;
+}
+
+.two h3{
+    font: TT Hoves;
+    font-weight : 600;
+    font-size : 27px;
+    line-height: 140%;
+    align-self: left;
+}
+.two h2{
+    width: calc(48vw + 114px);
+}
+
+.two p{
+    Font: TT Hoves;
+    Font-weight: 400;
+    Font-size: 27px;
+    letter-spacing: 0%;
+    line-height: 140%;
+    font-weight: 400;
+    align-items:  left;
+}
+.two p{
+    font-size: calc(0.9vw + 14px);
+    width: calc(12vw + 274px);
+}
+
+/* section two end */
+
+
+
+
+
+
+
+
+
+/* timer start */
+.timer{
+    background: #6E3ABA;
+    padding-top: 80px ;
+    padding-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer h2{
+    color: var(--typo-white, #FFF);
+    font-family: "TT Hoves";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    margin-bottom: 57px;
+}
+.timer h2{
+    font-size: calc(2vw + 26px);
+}
+ .timer_container{
+    display: flex;
+    gap: 85px;
+    margin-bottom: 57px;
+    /* width: calc(66vw + 72px); */
+ }
+ .timer_container{
+    gap: calc(3vw + 42px) ;
+ }
+ .timer_value{
+    color: #2F1D4E;
+    font-family: "Chava";
+    font-size: 174px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 107.5%; 
+ }
+ .timer .timer_value{
+    font-size: calc(12vw + 12px);
+    height: calc(12vw + 32px);
+ }
+ .timer_text{
+    color: #2F1D4E;
+    text-align: center;
+    font-family: "TT Hoves";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 20px;
+ } 
+
+
+ .timer_text{
+    font-size: calc(2vw + 3px);
+ }
+
+
+.timer_btn .secondary{
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    background-color: white;
+    border: 2px solid #6E3ABA;
+    color: #6E3ABA;
+    cursor: pointer;
+ }
+/* timer end */
+
+
+
+/* legend start */
+.legend h3{
+    font-weight: 500;
+    font-size: calc(2.66vw + 23px);
+    margin-bottom: calc(5.5vw + 19px);
+    text-transform: uppercase;
+
+}
+.legend_wrapper{
+    display: flex;
+    gap: 20px 51px;
+    flex-wrap: wrap;
+}
+.legend_img{
+    flex-basis: calc(7.7vw + 299px);
+    flex-grow: 0;
+}
+.legend_text_wrapper h3{
+    margin-bottom: calc(1.1vw + 5.84px);
+    font-size: calc(1.1vw + 33.84x);
+    font-weight: 700;
+    font-size: 48px;
+}
+.legend_text_wrapper{
+    flex-basis: 566px;
+    flex-grow: 100px;
+}
+.legend_text_wrapper .subtitle{
+    font-size: calc(1vw + 14.26px);
+    margin-bottom: calc(5.25vw + 22.84px);
+}
+.legend_icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px 90px;
+    grid-template-areas: "A B"
+                         "C D";
+}
+.legend_card:nth-child(1){
+    grid-area: A;
+}
+.legend_card:nth-child(2){
+    grid-area: B;
+}
+.legend_card:nth-child(3){
+    grid-area: C;
+}
+.legend_card:nth-child(4){
+    grid-area: D;
+}
+.legend_card p {
+    font-size:calc(0.55vw + 13px);
+    max-width: 250px;
+}
+
+
+
+
+
+/* legend end */
+
+
+
+/* five screen start  */
+.five h2{
+    font-weight: 500;
+    letter-spacing: 1%;
+    font-size: calc(2.6vw + 24px);
+    line-height: calc(3vw + 28px);
+    padding-bottom: calc(7.7vw + 9px);
+}
+
+
+.five_wrapper{
+    display: grid;
+   
+    grid-template-areas: "A B"
+                         "C D" ;
+    gap: 50px 120px 
+}
+.five_item h3{
+    font-weight: 600;
+    font-size: calc(1vw + 14px);
+    line-height: calc(1.3vw + 20px);
+}
+.five_item p{
+    font-weight: 400;
+    font-size: calc(1vw + 14px);
+    line-height: calc(1.3vw + 20px);
+}    
+
+
+/* five screen end  */
+
+
+/* photo slide start */
+
+ /* .slidephoto_h5 {  
+    font-weight: 500;
+    font-size: calc(2.66vw + 23px);
+    margin-bottom: calc(5.5vw + 19px);
+    text-transform: uppercase;
+ }
+
+
+
+/* photo slide end */
+
+
+/* diplom start */
+.diplom{
+    display: grid;
+   
+    grid-template-areas: "A B"
+                         "A C"      ;
+    gap: 0px 19px;
+}
+.diplom_img{
+    grid-area: A;
+}
+.dpicture{
+    width: calc(11.3vw + 284px);
+}
+.diplom_head{
+    grid-area: B;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: calc(1.55vw + 38px);
+    line-height: calc(3vw + 28px);
+    letter-spacing: 1%;
+}
+.diplom_text{
+    grid-area: C;
+    font-weight: 400;
+    font-size: calc(1vw + 14px);
+    line-height: calc(1.3vw + 20px);
+}
+
+
+/* diplom end */
+
+
+
+
+ .border{
+    border: 5px solid red;
+    max-height: 500px;
+    }
+    .border img{
+        width: 100%;
+        height: 100%;
+    }
+
+.slider_card{
+    width: 100%;
+    height: 484px;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.splide h2 {
+    font-weight: 500;
+    font-size: calc(2.66vw + 23px);
+    margin-bottom: calc(5.5vw + 19px);
+    text-transform: uppercase;
+}  
+
+.splide_slide{
+    background-color: white;
+    border-radius: 12px;
+    padding: 50px 20px;
+}
+.splide_arrow {
+    display: none;
+}
+.splide_pagination{
+    display: none;
+}
+.splider h3{
+    font-weight: 500;
+    font-size: calc(2.65 + 24px);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+/* slide photo */
+.photo_text{
+    grid-area: C;
+    font-weight: 400;
+    font-size: calc(1vw + 14px);
+    line-height: calc(1.3vw + 20px);
+}
+
+
+/* программа курса */
+.sueta{
+    border: 2px solid black;
+    padding: calc(4.4vw + 23.4px) calc(2.7 + 18px) calc(1.3vw + 18px) 35px calc(5vw);
+
+
+}
+.kurs{
+    margin-bottom: calc(1.8vw + 17px);
+    margin: 80px 391px 40px 64px;
+    
+    font-family: TT Hoves;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+   
+}
+
+ul{
+    list-style-type: none;
+    margin: 50px 50px 50px 50px;
+}
+li{
+    border-bottom: 1px solid gray;
+    font-size: calc(0.6vw + 14px);
+    line-height: 140%;
+    padding: 24px 0;
+}
+.lesson .primary {
+    display: block;
+    margin: 0 250px 50px 400px;
+    
+}
+
+#corner {
+    width: calc(10vw);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bg {
+background: rgba(0, 0, 0, 0.6);
+width: 100%;
+height: 100vh;
+position: fixed;
+top: 0;
+right: 0;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.popUp {
+    background: #F0F7FD;
+    border-radius: 12px;
+
+    flex-basis: 326px;
+    flex-shrink: 0;
+    flex-grow: 0.6;
+    
+
+    min-height: 423px;
+    height: 62vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px;
+}
+.form h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+.form input {
+    display: block;
+    width: calc(6.7vw + 242px);
+    border: 0;
+    border-bottom: 1px solid gray;
+    ;
+
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 10px;
+
+    outline: 0;
+    background: none;
+}
+.form input:first-child {
+    margin-bottom: 23px;
+}
+.closed {
+    display: none;
+    
+}
+
+
+.money h5{
+    font-family: TT Hoves;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 50px;
+}   
+.money p{
+    font-family: TT Hoves;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+    
+  
+    font-family: TT Hoves;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.otklik1 {
+    margin-left: 50px;
+    
+}
+.otklik2 {
+    margin-left: 300px;
+    
+}
+
+
+@media (max-width: 768px) {
+    .course_info{
+        display: flex;
+        flex-direction: column;
+    }
+    .face{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .two h2{
+    
+    line-height:40.05px;
+    Font: TT Hoves;
+    Font-weight: 500;
+    Font-size: 34px;
+    letter-spacing: 0%;
+    line-height: 140%;
+    font-weight: 400;
+    align-items:  left;
+    }
+    .legend_icons{
+        grid-template-areas: "A D"
+                             "B C"; 
+    }
+    .diplom{
+        grid-template-areas: "B"
+                             "A"
+                             "C" 
+    }
+    .five_wrapper{
+        display: grid;
+        grid-template-areas: "A"
+                             "B"
+                             "C"
+                             "D";
+    }
+   
+ }
